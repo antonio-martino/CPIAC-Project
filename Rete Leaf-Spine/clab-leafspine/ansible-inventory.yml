@@ -1,0 +1,37 @@
+all:
+  vars:
+    # The generated inventory is assumed to be used from the clab host.
+    # Hence no http proxy should be used. Therefore we make sure the http
+    # module does not attempt using any global http proxy.
+    ansible_httpapi_use_proxy: false
+  children:
+    linux:
+      hosts:
+        clab-leafspine-host1:
+          ansible_host: 172.20.20.30
+        clab-leafspine-host2:
+          ansible_host: 172.20.20.3
+        clab-leafspine-host3:
+          ansible_host: 172.20.20.8
+        clab-leafspine-host4:
+          ansible_host: 172.20.20.15
+        clab-leafspine-host5:
+          ansible_host: 172.20.20.11
+        clab-leafspine-host6:
+          ansible_host: 172.20.20.13
+        clab-leafspine-host7:
+          ansible_host: 172.20.20.2
+        clab-leafspine-host8:
+          ansible_host: 172.20.20.9
+        clab-leafspine-leaf1:
+          ansible_host: 172.20.20.10
+        clab-leafspine-leaf2:
+          ansible_host: 172.20.20.29
+        clab-leafspine-leaf3:
+          ansible_host: 172.20.20.14
+        clab-leafspine-leaf4:
+          ansible_host: 172.20.20.28
+        clab-leafspine-spine1:
+          ansible_host: 172.20.20.6
+        clab-leafspine-spine2:
+          ansible_host: 172.20.20.12
