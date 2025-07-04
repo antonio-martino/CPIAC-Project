@@ -3,37 +3,37 @@ access1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.24
+    hostname: 172.20.20.19
 access2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.26
+    hostname: 172.20.20.4
 access3:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.4
+    hostname: 172.20.20.9
 access4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.20
+    hostname: 172.20.20.21
 agg1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.25
+    hostname: 172.20.20.11
 agg2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.16
+    hostname: 172.20.20.14
 core1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.22
+    hostname: 172.20.20.8
 host1:
     username: 
     password: 
@@ -43,34 +43,34 @@ host2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.21
+    hostname: 172.20.20.26
 host3:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.27
+    hostname: 172.20.20.16
 host4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.18
+    hostname: 172.20.20.10
 host5:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.23
+    hostname: 172.20.20.2
 host6:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.5
+    hostname: 172.20.20.17
 host7:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.19
+    hostname: 172.20.20.24
 host8:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.17
+    hostname: 172.20.20.3

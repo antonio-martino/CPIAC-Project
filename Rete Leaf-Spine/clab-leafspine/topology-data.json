@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-f51cea5202a5",
+        "bridge": "br-6db7ee57bd56",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "3fff:172:20:20::/64",
@@ -24,26 +24,26 @@
       "longname": "clab-leafspine-host1",
       "fqdn": "host1.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host1",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.30",
+      "mgmt-ipv4-address": "172.20.20.12",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::1e",
+      "mgmt-ipv6-address": "3fff:172:20:20::c",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host1",
         "clab-node-longname": "clab-leafspine-host1",
         "clab-node-name": "host1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -79,26 +79,26 @@
       "longname": "clab-leafspine-host2",
       "fqdn": "host2.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host2",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host2",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-address": "172.20.20.18",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::3",
+      "mgmt-ipv6-address": "3fff:172:20:20::12",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host2",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host2",
         "clab-node-longname": "clab-leafspine-host2",
         "clab-node-name": "host2",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -134,35 +134,29 @@
       "longname": "clab-leafspine-host3",
       "fqdn": "host3.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host3",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host3",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.8",
+      "mgmt-ipv4-address": "172.20.20.30",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::8",
+      "mgmt-ipv6-address": "3fff:172:20:20::1e",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host3",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host3",
         "clab-node-longname": "clab-leafspine-host3",
         "clab-node-name": "host3",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 80,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -179,6 +173,12 @@
           "host-ip": "",
           "host-port": 0,
           "port": 443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 80,
           "protocol": "tcp"
         }
       ]
@@ -189,41 +189,29 @@
       "longname": "clab-leafspine-host4",
       "fqdn": "host4.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host4",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host4",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.15",
+      "mgmt-ipv4-address": "172.20.20.23",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::f",
+      "mgmt-ipv6-address": "3fff:172:20:20::17",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host4",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host4",
         "clab-node-longname": "clab-leafspine-host4",
         "clab-node-name": "host4",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 11443,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 1180,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -235,6 +223,18 @@
           "host-port": 0,
           "port": 80,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 11443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 1180,
+          "protocol": "tcp"
         }
       ]
     },
@@ -244,26 +244,26 @@
       "longname": "clab-leafspine-host5",
       "fqdn": "host5.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host5",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host5",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.11",
+      "mgmt-ipv4-address": "172.20.20.20",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::b",
+      "mgmt-ipv6-address": "3fff:172:20:20::14",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host5",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host5",
         "clab-node-longname": "clab-leafspine-host5",
         "clab-node-name": "host5",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -299,26 +299,26 @@
       "longname": "clab-leafspine-host6",
       "fqdn": "host6.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host6",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host6",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.13",
+      "mgmt-ipv4-address": "172.20.20.27",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::d",
+      "mgmt-ipv6-address": "3fff:172:20:20::1b",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host6",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host6",
         "clab-node-longname": "clab-leafspine-host6",
         "clab-node-name": "host6",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -354,29 +354,35 @@
       "longname": "clab-leafspine-host7",
       "fqdn": "host7.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host7",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host7",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-address": "172.20.20.22",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::2",
+      "mgmt-ipv6-address": "3fff:172:20:20::16",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host7",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host7",
         "clab-node-longname": "clab-leafspine-host7",
         "clab-node-name": "host7",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 11443,
+          "protocol": "tcp"
+        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -393,12 +399,6 @@
           "host-ip": "",
           "host-port": 0,
           "port": 80,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 11443,
           "protocol": "tcp"
         }
       ]
@@ -409,41 +409,29 @@
       "longname": "clab-leafspine-host8",
       "fqdn": "host8.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host8",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host8",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.9",
+      "mgmt-ipv4-address": "172.20.20.29",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::9",
+      "mgmt-ipv6-address": "3fff:172:20:20::1d",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/host8",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/host8",
         "clab-node-longname": "clab-leafspine-host8",
         "clab-node-name": "host8",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 11443,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 1180,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -455,6 +443,18 @@
           "host-port": 0,
           "port": 80,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 11443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 1180,
+          "protocol": "tcp"
         }
       ]
     },
@@ -464,26 +464,26 @@
       "longname": "clab-leafspine-leaf1",
       "fqdn": "leaf1.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf1",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.10",
+      "mgmt-ipv4-address": "172.20.20.13",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::a",
+      "mgmt-ipv6-address": "3fff:172:20:20::d",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf1",
         "clab-node-longname": "clab-leafspine-leaf1",
         "clab-node-name": "leaf1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -495,26 +495,26 @@
       "longname": "clab-leafspine-leaf2",
       "fqdn": "leaf2.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf2",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf2",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.29",
+      "mgmt-ipv4-address": "172.20.20.15",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::1d",
+      "mgmt-ipv6-address": "3fff:172:20:20::f",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf2",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf2",
         "clab-node-longname": "clab-leafspine-leaf2",
         "clab-node-name": "leaf2",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -526,26 +526,26 @@
       "longname": "clab-leafspine-leaf3",
       "fqdn": "leaf3.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf3",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf3",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.14",
+      "mgmt-ipv4-address": "172.20.20.25",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::e",
+      "mgmt-ipv6-address": "3fff:172:20:20::19",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf3",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf3",
         "clab-node-longname": "clab-leafspine-leaf3",
         "clab-node-name": "leaf3",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -557,26 +557,26 @@
       "longname": "clab-leafspine-leaf4",
       "fqdn": "leaf4.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf4",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf4",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.28",
+      "mgmt-ipv4-address": "172.20.20.6",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::1c",
+      "mgmt-ipv6-address": "3fff:172:20:20::6",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/leaf4",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/leaf4",
         "clab-node-longname": "clab-leafspine-leaf4",
         "clab-node-name": "leaf4",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -588,26 +588,26 @@
       "longname": "clab-leafspine-spine1",
       "fqdn": "spine1.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/spine1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/spine1",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-address": "172.20.20.28",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::6",
+      "mgmt-ipv6-address": "3fff:172:20:20::1c",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/spine1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/spine1",
         "clab-node-longname": "clab-leafspine-spine1",
         "clab-node-name": "spine1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -619,26 +619,26 @@
       "longname": "clab-leafspine-spine2",
       "fqdn": "spine2.leafspine.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/spine2",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/spine2",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.12",
+      "mgmt-ipv4-address": "172.20.20.5",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::c",
+      "mgmt-ipv6-address": "3fff:172:20:20::5",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/clab-leafspine/spine2",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/clab-leafspine/spine2",
         "clab-node-longname": "clab-leafspine-spine2",
         "clab-node-name": "spine2",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Leaf-Spine/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Leaf-Spine/topology.yaml",
         "containerlab": "leafspine"
       },
       "port-bindings": [
@@ -650,13 +650,13 @@
       "a": {
         "node": "leaf1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:91:17:e1",
+        "mac": "aa:c1:ab:ae:ce:2b",
         "peer": "z"
       },
       "z": {
         "node": "spine1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:7f:e0:77",
+        "mac": "aa:c1:ab:43:65:af",
         "peer": "a"
       }
     },
@@ -664,13 +664,13 @@
       "a": {
         "node": "leaf1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:e8:88:e8",
+        "mac": "aa:c1:ab:ee:52:d3",
         "peer": "z"
       },
       "z": {
         "node": "spine2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:61:ae:54",
+        "mac": "aa:c1:ab:c0:4b:79",
         "peer": "a"
       }
     },
@@ -678,13 +678,13 @@
       "a": {
         "node": "leaf2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:b5:5d:64",
+        "mac": "aa:c1:ab:cb:67:47",
         "peer": "z"
       },
       "z": {
         "node": "spine1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:f6:7d:36",
+        "mac": "aa:c1:ab:06:a2:ff",
         "peer": "a"
       }
     },
@@ -692,13 +692,13 @@
       "a": {
         "node": "leaf2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:79:84:35",
+        "mac": "aa:c1:ab:34:e4:0c",
         "peer": "z"
       },
       "z": {
         "node": "spine2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:a3:cf:3f",
+        "mac": "aa:c1:ab:f6:fb:a4",
         "peer": "a"
       }
     },
@@ -706,13 +706,13 @@
       "a": {
         "node": "leaf3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:a5:24:4d",
+        "mac": "aa:c1:ab:aa:30:3a",
         "peer": "z"
       },
       "z": {
         "node": "spine1",
         "interface": "eth3",
-        "mac": "aa:c1:ab:d7:ca:68",
+        "mac": "aa:c1:ab:63:91:02",
         "peer": "a"
       }
     },
@@ -720,13 +720,13 @@
       "a": {
         "node": "leaf3",
         "interface": "eth2",
-        "mac": "aa:c1:ab:c5:56:83",
+        "mac": "aa:c1:ab:fe:17:e0",
         "peer": "z"
       },
       "z": {
         "node": "spine2",
         "interface": "eth3",
-        "mac": "aa:c1:ab:70:21:89",
+        "mac": "aa:c1:ab:d4:39:f1",
         "peer": "a"
       }
     },
@@ -734,13 +734,13 @@
       "a": {
         "node": "leaf4",
         "interface": "eth1",
-        "mac": "aa:c1:ab:86:33:1b",
+        "mac": "aa:c1:ab:b3:92:a8",
         "peer": "z"
       },
       "z": {
         "node": "spine1",
         "interface": "eth4",
-        "mac": "aa:c1:ab:4e:c2:88",
+        "mac": "aa:c1:ab:09:5e:b4",
         "peer": "a"
       }
     },
@@ -748,13 +748,13 @@
       "a": {
         "node": "leaf4",
         "interface": "eth2",
-        "mac": "aa:c1:ab:a5:37:bb",
+        "mac": "aa:c1:ab:ec:13:b7",
         "peer": "z"
       },
       "z": {
         "node": "spine2",
         "interface": "eth4",
-        "mac": "aa:c1:ab:c3:48:4d",
+        "mac": "aa:c1:ab:73:8c:27",
         "peer": "a"
       }
     },
@@ -762,13 +762,13 @@
       "a": {
         "node": "host1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:74:88:12",
+        "mac": "aa:c1:ab:d0:0d:3a",
         "peer": "z"
       },
       "z": {
         "node": "leaf1",
         "interface": "eth4",
-        "mac": "aa:c1:ab:13:c2:69",
+        "mac": "aa:c1:ab:32:8a:71",
         "peer": "a"
       }
     },
@@ -776,13 +776,13 @@
       "a": {
         "node": "host2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:bc:b6:d8",
+        "mac": "aa:c1:ab:aa:6e:c8",
         "peer": "z"
       },
       "z": {
         "node": "leaf1",
         "interface": "eth5",
-        "mac": "aa:c1:ab:4f:17:88",
+        "mac": "aa:c1:ab:bb:8c:d2",
         "peer": "a"
       }
     },
@@ -790,13 +790,13 @@
       "a": {
         "node": "host3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:33:97:3c",
+        "mac": "aa:c1:ab:c7:fe:96",
         "peer": "z"
       },
       "z": {
         "node": "leaf2",
         "interface": "eth4",
-        "mac": "aa:c1:ab:53:e7:44",
+        "mac": "aa:c1:ab:e4:ec:43",
         "peer": "a"
       }
     },
@@ -804,13 +804,13 @@
       "a": {
         "node": "host4",
         "interface": "eth1",
-        "mac": "aa:c1:ab:0e:40:d1",
+        "mac": "aa:c1:ab:cf:74:bc",
         "peer": "z"
       },
       "z": {
         "node": "leaf2",
         "interface": "eth5",
-        "mac": "aa:c1:ab:21:c2:20",
+        "mac": "aa:c1:ab:85:59:bc",
         "peer": "a"
       }
     },
@@ -818,13 +818,13 @@
       "a": {
         "node": "host5",
         "interface": "eth1",
-        "mac": "aa:c1:ab:79:1c:db",
+        "mac": "aa:c1:ab:62:b0:a9",
         "peer": "z"
       },
       "z": {
         "node": "leaf3",
         "interface": "eth4",
-        "mac": "aa:c1:ab:9c:77:8c",
+        "mac": "aa:c1:ab:9e:d1:10",
         "peer": "a"
       }
     },
@@ -832,13 +832,13 @@
       "a": {
         "node": "host6",
         "interface": "eth1",
-        "mac": "aa:c1:ab:e1:37:9e",
+        "mac": "aa:c1:ab:36:e5:b7",
         "peer": "z"
       },
       "z": {
         "node": "leaf3",
         "interface": "eth5",
-        "mac": "aa:c1:ab:46:a6:7d",
+        "mac": "aa:c1:ab:57:ce:54",
         "peer": "a"
       }
     },
@@ -846,13 +846,13 @@
       "a": {
         "node": "host7",
         "interface": "eth1",
-        "mac": "aa:c1:ab:4c:99:78",
+        "mac": "aa:c1:ab:2c:a4:f5",
         "peer": "z"
       },
       "z": {
         "node": "leaf4",
         "interface": "eth4",
-        "mac": "aa:c1:ab:98:8c:1b",
+        "mac": "aa:c1:ab:58:79:2e",
         "peer": "a"
       }
     },
@@ -860,13 +860,13 @@
       "a": {
         "node": "host8",
         "interface": "eth1",
-        "mac": "aa:c1:ab:f3:04:44",
+        "mac": "aa:c1:ab:dd:36:43",
         "peer": "z"
       },
       "z": {
         "node": "leaf4",
         "interface": "eth5",
-        "mac": "aa:c1:ab:45:41:38",
+        "mac": "aa:c1:ab:95:1b:54",
         "peer": "a"
       }
     }

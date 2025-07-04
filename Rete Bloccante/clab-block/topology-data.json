@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-f51cea5202a5",
+        "bridge": "br-6db7ee57bd56",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "3fff:172:20:20::/64",
@@ -24,26 +24,26 @@
       "longname": "clab-block-access1",
       "fqdn": "access1.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access1",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.24",
+      "mgmt-ipv4-address": "172.20.20.19",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::18",
+      "mgmt-ipv6-address": "3fff:172:20:20::13",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access1",
         "clab-node-longname": "clab-block-access1",
         "clab-node-name": "access1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -55,26 +55,26 @@
       "longname": "clab-block-access2",
       "fqdn": "access2.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access2",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access2",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.26",
+      "mgmt-ipv4-address": "172.20.20.4",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::1a",
+      "mgmt-ipv6-address": "3fff:172:20:20::4",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access2",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access2",
         "clab-node-longname": "clab-block-access2",
         "clab-node-name": "access2",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -86,26 +86,26 @@
       "longname": "clab-block-access3",
       "fqdn": "access3.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access3",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access3",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-address": "172.20.20.9",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::4",
+      "mgmt-ipv6-address": "3fff:172:20:20::9",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access3",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access3",
         "clab-node-longname": "clab-block-access3",
         "clab-node-name": "access3",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -117,26 +117,26 @@
       "longname": "clab-block-access4",
       "fqdn": "access4.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access4",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access4",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.20",
+      "mgmt-ipv4-address": "172.20.20.21",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::14",
+      "mgmt-ipv6-address": "3fff:172:20:20::15",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/access4",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/access4",
         "clab-node-longname": "clab-block-access4",
         "clab-node-name": "access4",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -148,26 +148,26 @@
       "longname": "clab-block-agg1",
       "fqdn": "agg1.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/agg1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/agg1",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.25",
+      "mgmt-ipv4-address": "172.20.20.11",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::19",
+      "mgmt-ipv6-address": "3fff:172:20:20::b",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/agg1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/agg1",
         "clab-node-longname": "clab-block-agg1",
         "clab-node-name": "agg1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -179,26 +179,26 @@
       "longname": "clab-block-agg2",
       "fqdn": "agg2.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/agg2",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/agg2",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.16",
+      "mgmt-ipv4-address": "172.20.20.14",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::10",
+      "mgmt-ipv6-address": "3fff:172:20:20::e",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/agg2",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/agg2",
         "clab-node-longname": "clab-block-agg2",
         "clab-node-name": "agg2",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -210,26 +210,26 @@
       "longname": "clab-block-core1",
       "fqdn": "core1.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/core1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/core1",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.22",
+      "mgmt-ipv4-address": "172.20.20.8",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::16",
+      "mgmt-ipv6-address": "3fff:172:20:20::8",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/core1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/core1",
         "clab-node-longname": "clab-block-core1",
         "clab-node-name": "core1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -241,7 +241,7 @@
       "longname": "clab-block-host1",
       "fqdn": "host1.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host1",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host1",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
@@ -252,30 +252,18 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host1",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host1",
         "clab-node-longname": "clab-block-host1",
         "clab-node-name": "host1",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 443,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 80,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -287,6 +275,18 @@
           "host-port": 0,
           "port": 1180,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 80,
+          "protocol": "tcp"
         }
       ]
     },
@@ -296,26 +296,26 @@
       "longname": "clab-block-host2",
       "fqdn": "host2.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host2",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host2",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.21",
+      "mgmt-ipv4-address": "172.20.20.26",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::15",
+      "mgmt-ipv6-address": "3fff:172:20:20::1a",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host2",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host2",
         "clab-node-longname": "clab-block-host2",
         "clab-node-name": "host2",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -351,26 +351,26 @@
       "longname": "clab-block-host3",
       "fqdn": "host3.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host3",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host3",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.27",
+      "mgmt-ipv4-address": "172.20.20.16",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::1b",
+      "mgmt-ipv6-address": "3fff:172:20:20::10",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host3",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host3",
         "clab-node-longname": "clab-block-host3",
         "clab-node-name": "host3",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -406,35 +406,29 @@
       "longname": "clab-block-host4",
       "fqdn": "host4.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host4",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host4",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.18",
+      "mgmt-ipv4-address": "172.20.20.10",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::12",
+      "mgmt-ipv6-address": "3fff:172:20:20::a",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host4",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host4",
         "clab-node-longname": "clab-block-host4",
         "clab-node-name": "host4",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 80,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -452,6 +446,12 @@
           "host-port": 0,
           "port": 443,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 80,
+          "protocol": "tcp"
         }
       ]
     },
@@ -461,26 +461,26 @@
       "longname": "clab-block-host5",
       "fqdn": "host5.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host5",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host5",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.23",
+      "mgmt-ipv4-address": "172.20.20.2",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::17",
+      "mgmt-ipv6-address": "3fff:172:20:20::2",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host5",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host5",
         "clab-node-longname": "clab-block-host5",
         "clab-node-name": "host5",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -516,26 +516,26 @@
       "longname": "clab-block-host6",
       "fqdn": "host6.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host6",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host6",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-address": "172.20.20.17",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::5",
+      "mgmt-ipv6-address": "3fff:172:20:20::11",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host6",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host6",
         "clab-node-longname": "clab-block-host6",
         "clab-node-name": "host6",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -571,41 +571,29 @@
       "longname": "clab-block-host7",
       "fqdn": "host7.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host7",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host7",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.19",
+      "mgmt-ipv4-address": "172.20.20.24",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::13",
+      "mgmt-ipv6-address": "3fff:172:20:20::18",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host7",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host7",
         "clab-node-longname": "clab-block-host7",
         "clab-node-name": "host7",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 443,
-          "protocol": "tcp"
-        },
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 80,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -617,6 +605,18 @@
           "host-port": 0,
           "port": 1180,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 80,
+          "protocol": "tcp"
         }
       ]
     },
@@ -626,26 +626,26 @@
       "longname": "clab-block-host8",
       "fqdn": "host8.block.io",
       "group": "",
-      "labdir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host8",
+      "labdir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host8",
       "kind": "linux",
       "image": "wbitt/network-multitool:extra",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.17",
+      "mgmt-ipv4-address": "172.20.20.3",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "3fff:172:20:20::11",
+      "mgmt-ipv6-address": "3fff:172:20:20::3",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-f51cea5202a5",
+        "clab-mgmt-net-bridge": "br-6db7ee57bd56",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/ubu/Desktop/Progetto/Rete Bloccante/clab-block/host8",
+        "clab-node-lab-dir": "/home/ubu/Desktop/Cloud/Rete Bloccante/clab-block/host8",
         "clab-node-longname": "clab-block-host8",
         "clab-node-name": "host8",
         "clab-node-type": "",
         "clab-owner": "ubu",
-        "clab-topo-file": "/home/ubu/Desktop/Progetto/Rete Bloccante/topology.yaml",
+        "clab-topo-file": "/home/ubu/Desktop/Cloud/Rete Bloccante/topology.yaml",
         "containerlab": "block"
       },
       "port-bindings": [
@@ -681,13 +681,13 @@
       "a": {
         "node": "core1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:b2:16:d9",
+        "mac": "aa:c1:ab:5a:6c:8b",
         "peer": "z"
       },
       "z": {
         "node": "agg1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:2c:67:51",
+        "mac": "aa:c1:ab:3b:40:26",
         "peer": "a"
       }
     },
@@ -695,13 +695,13 @@
       "a": {
         "node": "core1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:31:92:02",
+        "mac": "aa:c1:ab:be:74:f4",
         "peer": "z"
       },
       "z": {
         "node": "agg2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:41:4d:b7",
+        "mac": "aa:c1:ab:d1:e4:51",
         "peer": "a"
       }
     },
@@ -709,13 +709,13 @@
       "a": {
         "node": "agg1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:f6:3e:af",
+        "mac": "aa:c1:ab:a1:63:aa",
         "peer": "z"
       },
       "z": {
         "node": "access1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:d3:11:dd",
+        "mac": "aa:c1:ab:6c:bd:88",
         "peer": "a"
       }
     },
@@ -723,13 +723,13 @@
       "a": {
         "node": "agg1",
         "interface": "eth3",
-        "mac": "aa:c1:ab:10:52:cb",
+        "mac": "aa:c1:ab:d2:13:5f",
         "peer": "z"
       },
       "z": {
         "node": "access2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:82:92:6e",
+        "mac": "aa:c1:ab:f2:5a:cb",
         "peer": "a"
       }
     },
@@ -737,13 +737,13 @@
       "a": {
         "node": "agg2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:cc:17:83",
+        "mac": "aa:c1:ab:2a:bd:c6",
         "peer": "z"
       },
       "z": {
         "node": "access3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:ad:2e:f5",
+        "mac": "aa:c1:ab:7d:20:ad",
         "peer": "a"
       }
     },
@@ -751,13 +751,13 @@
       "a": {
         "node": "agg2",
         "interface": "eth3",
-        "mac": "aa:c1:ab:0b:e3:04",
+        "mac": "aa:c1:ab:26:e7:34",
         "peer": "z"
       },
       "z": {
         "node": "access4",
         "interface": "eth1",
-        "mac": "aa:c1:ab:f5:95:2d",
+        "mac": "aa:c1:ab:4b:69:d1",
         "peer": "a"
       }
     },
@@ -765,13 +765,13 @@
       "a": {
         "node": "access1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:cf:d8:29",
+        "mac": "aa:c1:ab:c6:52:23",
         "peer": "z"
       },
       "z": {
         "node": "host1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:82:42:f4",
+        "mac": "aa:c1:ab:79:3b:aa",
         "peer": "a"
       }
     },
@@ -779,13 +779,13 @@
       "a": {
         "node": "access1",
         "interface": "eth3",
-        "mac": "aa:c1:ab:32:17:b5",
+        "mac": "aa:c1:ab:5e:00:aa",
         "peer": "z"
       },
       "z": {
         "node": "host2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:34:9b:a6",
+        "mac": "aa:c1:ab:7a:40:ad",
         "peer": "a"
       }
     },
@@ -793,13 +793,13 @@
       "a": {
         "node": "access2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:83:60:d6",
+        "mac": "aa:c1:ab:9c:cf:38",
         "peer": "z"
       },
       "z": {
         "node": "host3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:17:6a:7e",
+        "mac": "aa:c1:ab:7d:e9:e5",
         "peer": "a"
       }
     },
@@ -807,13 +807,13 @@
       "a": {
         "node": "access2",
         "interface": "eth3",
-        "mac": "aa:c1:ab:ed:3a:f3",
+        "mac": "aa:c1:ab:d7:ab:0a",
         "peer": "z"
       },
       "z": {
         "node": "host4",
         "interface": "eth1",
-        "mac": "aa:c1:ab:8d:2f:a1",
+        "mac": "aa:c1:ab:bc:3f:27",
         "peer": "a"
       }
     },
@@ -821,13 +821,13 @@
       "a": {
         "node": "access3",
         "interface": "eth2",
-        "mac": "aa:c1:ab:2c:9a:c1",
+        "mac": "aa:c1:ab:ee:07:d8",
         "peer": "z"
       },
       "z": {
         "node": "host5",
         "interface": "eth1",
-        "mac": "aa:c1:ab:af:59:fb",
+        "mac": "aa:c1:ab:25:eb:2b",
         "peer": "a"
       }
     },
@@ -835,13 +835,13 @@
       "a": {
         "node": "access3",
         "interface": "eth3",
-        "mac": "aa:c1:ab:ee:47:dc",
+        "mac": "aa:c1:ab:9a:34:bc",
         "peer": "z"
       },
       "z": {
         "node": "host6",
         "interface": "eth1",
-        "mac": "aa:c1:ab:00:66:87",
+        "mac": "aa:c1:ab:9e:50:54",
         "peer": "a"
       }
     },
@@ -849,13 +849,13 @@
       "a": {
         "node": "access4",
         "interface": "eth2",
-        "mac": "aa:c1:ab:cd:44:e1",
+        "mac": "aa:c1:ab:b1:fd:cf",
         "peer": "z"
       },
       "z": {
         "node": "host7",
         "interface": "eth1",
-        "mac": "aa:c1:ab:a2:f1:2d",
+        "mac": "aa:c1:ab:e3:b7:82",
         "peer": "a"
       }
     },
@@ -863,13 +863,13 @@
       "a": {
         "node": "access4",
         "interface": "eth3",
-        "mac": "aa:c1:ab:4d:4e:99",
+        "mac": "aa:c1:ab:7c:67:a3",
         "peer": "z"
       },
       "z": {
         "node": "host8",
         "interface": "eth1",
-        "mac": "aa:c1:ab:24:fb:ce",
+        "mac": "aa:c1:ab:ef:31:80",
         "peer": "a"
       }
     }

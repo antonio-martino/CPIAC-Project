@@ -8,32 +8,32 @@ all:
     linux:
       hosts:
         clab-block-access1:
-          ansible_host: 172.20.20.24
+          ansible_host: 172.20.20.19
         clab-block-access2:
-          ansible_host: 172.20.20.26
-        clab-block-access3:
           ansible_host: 172.20.20.4
+        clab-block-access3:
+          ansible_host: 172.20.20.9
         clab-block-access4:
-          ansible_host: 172.20.20.20
+          ansible_host: 172.20.20.21
         clab-block-agg1:
-          ansible_host: 172.20.20.25
+          ansible_host: 172.20.20.11
         clab-block-agg2:
-          ansible_host: 172.20.20.16
+          ansible_host: 172.20.20.14
         clab-block-core1:
-          ansible_host: 172.20.20.22
+          ansible_host: 172.20.20.8
         clab-block-host1:
           ansible_host: 172.20.20.7
         clab-block-host2:
-          ansible_host: 172.20.20.21
+          ansible_host: 172.20.20.26
         clab-block-host3:
-          ansible_host: 172.20.20.27
+          ansible_host: 172.20.20.16
         clab-block-host4:
-          ansible_host: 172.20.20.18
+          ansible_host: 172.20.20.10
         clab-block-host5:
-          ansible_host: 172.20.20.23
+          ansible_host: 172.20.20.2
         clab-block-host6:
-          ansible_host: 172.20.20.5
-        clab-block-host7:
-          ansible_host: 172.20.20.19
-        clab-block-host8:
           ansible_host: 172.20.20.17
+        clab-block-host7:
+          ansible_host: 172.20.20.24
+        clab-block-host8:
+          ansible_host: 172.20.20.3
