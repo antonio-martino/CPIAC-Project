@@ -17,7 +17,7 @@ topology:
             - tc qdisc add dev eth2 root tbf rate 1000mbit burst 100kb latency 50ms
             - ip route del default
 
-        # Aggregation layer (2 switches)
+        # Aggregation layer
         agg1:
             kind: linux
             image: frrouting/frr
@@ -54,7 +54,7 @@ topology:
             - tc qdisc add dev eth3 root tbf rate 1000mbit burst 100kb latency 50ms
             - ip route del default
 
-        # Access layer (4 switches)
+        # Access layer
         access1:
             kind: linux
             image: frrouting/frr
@@ -127,7 +127,7 @@ topology:
             - tc qdisc add dev eth3 root tbf rate 1000mbit burst 100kb latency 50ms
             - ip route del default
 
-        # Hosts (8 total)
+        # Host
         host1:
             kind: linux
             image: wbitt/network-multitool:extra
@@ -219,7 +219,7 @@ topology:
         - endpoints: ["agg2:eth2", "access3:eth1"]
         - endpoints: ["agg2:eth3", "access4:eth1"]
 
-        # Access <-> Hosts
+        # Access <-> Host
         - endpoints: ["access1:eth2", "host1:eth1"]
         - endpoints: ["access1:eth3", "host2:eth1"]
         - endpoints: ["access2:eth2", "host3:eth1"]

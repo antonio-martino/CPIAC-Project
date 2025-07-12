@@ -1,6 +1,7 @@
 name: leafspine
 topology:
-    nodes: 
+    nodes:
+        #Spine Layer 
         spine1: 
             kind: linux
             image: frrouting/frr
@@ -42,6 +43,8 @@ topology:
             - ip link set dev eth4 up
             - tc qdisc add dev eth4 root tbf rate 1000mbit burst 100kb latency 50ms
             - ip route del default
+
+        #Leaf Layer
 
         leaf1: 
             kind: linux
@@ -127,6 +130,8 @@ topology:
             - tc qdisc add dev eth5 root tbf rate 1000mbit burst 100kb latency 50ms
             - ip route del default
 
+        #Host
+
         host1:
             kind: linux
             image: wbitt/network-multitool:extra
@@ -208,34 +213,28 @@ topology:
             - ip route add default via 10.0.0.29
     
     links:
-        # Leaf1 to Spines
+        # Leaf <-> Spine
         - endpoints: ["leaf1:eth1", "spine1:eth1"]
         - endpoints: ["leaf1:eth2", "spine2:eth1"]
 
-        # Leaf2 to Spines
         - endpoints: ["leaf2:eth1", "spine1:eth2"]
         - endpoints: ["leaf2:eth2", "spine2:eth2"]
 
-        # Leaf3 to Spines
         - endpoints: ["leaf3:eth1", "spine1:eth3"]
         - endpoints: ["leaf3:eth2", "spine2:eth3"]
 
-        # Leaf4 to Spines
         - endpoints: ["leaf4:eth1", "spine1:eth4"]
         - endpoints: ["leaf4:eth2", "spine2:eth4"]
 
-        # Hosts to Leaf1
+        # Host <-> Leaf
         - endpoints: ["host1:eth1", "leaf1:eth4"]
         - endpoints: ["host2:eth1", "leaf1:eth5"]
 
-        # Hosts to Leaf2
         - endpoints: ["host3:eth1", "leaf2:eth4"]
         - endpoints: ["host4:eth1", "leaf2:eth5"]
 
-        # Hosts to Leaf3
         - endpoints: ["host5:eth1", "leaf3:eth4"]
         - endpoints: ["host6:eth1", "leaf3:eth5"]
 
-        # Hosts to Leaf4
         - endpoints: ["host7:eth1", "leaf4:eth4"]
         - endpoints: ["host8:eth1", "leaf4:eth5"]

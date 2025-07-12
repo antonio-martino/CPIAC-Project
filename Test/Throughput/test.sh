@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Avvio dei test iperf3 sulla rete bloccante..."
+echo "Avvio dei test iperf3 sulla rete bloccante"
 
 docker exec -d clab-block-host2 iperf3 -s &
 docker exec -d clab-block-host4 iperf3 -s &
@@ -17,7 +17,7 @@ docker exec clab-block-host7 iperf3 -c 10.0.0.14 -t 10 -P 5 > ./Blocking/result_
 
 wait
 
-echo "Avvio dei test iperf3 sulla rete leaf-spine..."
+echo "Avvio dei test iperf3 sulla rete leaf-spine"
 
 docker exec -d clab-leafspine-host2 iperf3 -s &
 docker exec -d clab-leafspine-host4 iperf3 -s &
